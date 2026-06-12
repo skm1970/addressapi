@@ -35,6 +35,7 @@ Four-file FastAPI app with in-memory storage:
 | PUT | `/addresses/{name}` | Partial update; 404 if not found |
 | DELETE | `/addresses/{name}` | 204 on success; 404 if not found |
 
+- Azure deployment URL - https://addressapps-cbf5ebhbg4dpe0cn.eastus-01.azurewebsites.net/
 `name` is the unique key — it is part of the request body on create and the URL path on all other operations.
 
 ## Key Constraints
