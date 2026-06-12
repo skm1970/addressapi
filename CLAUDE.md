@@ -9,6 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 pip install -r requirements.txt
 
 # Run the dev server (auto-reload on file changes)
+.venv\Scripts\activate
 uvicorn main:app --reload
 
 # API docs (Swagger UI) once server is running
